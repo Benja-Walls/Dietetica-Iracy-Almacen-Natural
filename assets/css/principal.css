@@ -13,5 +13,9 @@
     --black:#323333;
     --black2:#2a2b2b;
     --primary2: hsla(129, 22%, 42%, 0.89);
-    --primary-dark2:hsla(127, 32%, 34%, 0.808);
+    --primary-dark2:hsl(127, 32%, 34%);
+    --primaryM: hsl(129, 51%, 35%);
+    --primary-darkM:hsl(127, 67%, 28%);
+    --secondaryM: hsl(30, 46%, 35%);
+    --secondary-darkM: hsl(32, 72%, 25%);
 }

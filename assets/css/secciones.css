@@ -39,3 +39,15 @@ section hr {
 #Pagos {
     background: linear-gradient(var(--primary-dark2), var(--primary2));
 }
+
+@media (max-width: 768px) {
+    header {
+        background: linear-gradient(var(--secondaryM), var(--secondary-darkM));
+    }
+    #navbar, section.even{
+        background: linear-gradient(var(--primaryM), var(--primary-darkM));
+    }
+    #Pagos {
+        background: linear-gradient(var(--primary-dark2), var(--primary-dark2));
+    }
+}    
