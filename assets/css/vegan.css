@@ -1,0 +1,18 @@
+.container {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    position: absolute;
+}
+
+.image a {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+}
+
+.circle2 {
+    border-style: solid;
+    border-radius: 50%;
+    color: var(--secondary-dark);
+}

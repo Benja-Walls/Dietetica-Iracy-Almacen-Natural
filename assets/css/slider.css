@@ -1,0 +1,121 @@
+.slider {
+    width: 95%;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate;
+    
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0; }
+    20% {margin-left: 0; }
+
+    25% {margin-left: -100%; }
+    45% {margin-left: -100%; }
+
+    50% {margin-left: -200%; }
+    70% {margin-left: -200%; }
+
+    75% {margin-left: -300%; }
+    100% {margin-left: -300%; }
+
+}
+.conteiner2 {
+        display: flex;
+        align-items: center; /* Alinea verticalmente la imagen y el texto */
+        flex-wrap: wrap;
+        padding: 20px;
+}
+
+.h {
+    font-size: 150%;
+    flex: 1; /* Permite que el texto tome el espacio restante */
+    margin-top: 10px; /* Margen superior para separar la imagen del texto en dispositivos pequeños */
+  }
+b {
+  color: var(--secondary-dark);
+}
+  .text-container {
+    flex: 1;
+  }
+.slider2 {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.slider2 ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+     animation: cambio 20s infinite alternate;
+    
+}
+
+.slider2 li {
+    width: 100%;
+    list-style: none;
+
+}
+
+.slider2 img {
+  max-width: 100%;
+  margin-right: 10px;
+  border-radius: 10%;
+  border-top: solid 3px;
+  border-bottom: solid 3px;
+  border-color: var(--secondary-dark);
+}
+
+@keyframes cambio {
+    0% {margin-left: 0; }
+    20% {margin-left: 0; }
+
+    25% {margin-left: -100%; }
+    45% {margin-left: -100%; }
+
+    50% {margin-left: -200%; }
+    70% {margin-left: -200%; }
+
+    75% {margin-left: -300%; }
+    100% {margin-left: -300%; }
+
+}
+
+@media (max-width: 768px) {
+    /* Estilos aplicados cuando el ancho de la ventana es igual o menor a 768px */
+    .container {
+      flex-direction: column; /* Cambia la dirección de la disposición a columna */
+      align-items: center; /* Centra verticalmente los elementos en dispositivos pequeños */
+    }
+  
+    img {
+      margin-right: 0; /* Elimina el margen derecho en dispositivos pequeños */
+      margin-bottom: 10px; /* Margen inferior para separar la imagen del texto en dispositivos pequeños */
+    }
+  }
+  @media (max-width: 768px) {
+    .text-container {
+      flex-basis: 100%; /* Establece el ancho del contenedor de texto al 100% en dispositivos pequeños */
+      margin-top: 10px; /* Margen superior para separar la imagen del texto en dispositivos pequeños */
+    }
+  }

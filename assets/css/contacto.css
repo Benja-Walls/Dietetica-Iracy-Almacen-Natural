@@ -1,0 +1,101 @@
+
+.contenedor3 {
+    display: flex;
+    margin: 0%;
+}
+#wpp {
+    margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   margin-bottom: 20px;
+   border-style: solid;
+   border-color: var(--secondary);
+}
+
+h4 {
+   padding-left: 35%;
+    margin: 1;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .contenedor3 {
+        flex-direction: initial;
+        align-items: center;
+        margin: 5%;
+    }
+
+    #wpp {
+        margin-bottom: 20px;
+        max-height: 35px;
+       margin-left: 0px;
+    }
+    h4 {
+        font-size: 12px;
+        align-items: center;
+        padding-left: 80px;
+        margin: 0;
+    }
+}
+
+form {
+    font-size: 1.2rem;
+}
+form label {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+input,
+textarea, input:focus,
+textarea:focus {
+    width: 100%;
+    padding: 1rem;
+    color: var(--secondary);
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    cursor: pointer;
+    margin: 1rem 0 2rem;
+}
+
+textarea {
+    resize: none;
+}
+
+form button {
+    background-color: var(--secondary);
+    color: var(--white);
+    margin: 3rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+form button:hover {
+    background-color: var(--secondary2);
+}
+#social-media  img{
+    border-radius: 10rem;
+    background-color: var(--white);
+    transition: all ease .3s;
+    margin: 1rem;
+    border-style: solid;
+    border-color: var(--secondary);
+}
+#social-media a {
+    text-decoration: none;
+}
+#insta:hover {
+    border-color: rgb(225, 0, 255);
+}
+
+#Facebook:hover {
+    border-color: rgb(6, 161, 223);
+}
+#wpp:hover {
+    border-color: yellowgreen;
+}

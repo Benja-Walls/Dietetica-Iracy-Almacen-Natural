@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Dietetica Iracy almacen Natural</title>
+    <link rel="icon" type="image/png" href="../assets/img/LogoIra.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../assets/css/principal.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../assets/css/fuentes.css" />
+<link rel="stylesheet" type="text/css" href="../assets/css/utilidades.css" />
+<link rel="stylesheet" type="text/css" href="../assets/css/secciones.css" />
+<link rel="stylesheet" type="text/css" href="../assets/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../assets/css/nav.css" />
+<link rel="stylesheet" type="text/css" href="../assets/css/produc/style.css" />
+
+
+
+    <title>Productos</title>
+</head>
+<body>
+    <header>   
+        <h1>productos</h1>
+    </header>
+    <nav id="navbar">
+        <div>
+        <a href="/">
+        <img class="circle" src="../assets/img/LogoIra.jpg" height="50" >
+            <small> Tu Dietetica online </small>
+        </a>
+        </div>
+    <ul>
+        <li><a href="../index.html">Inicio</a></li> 
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="bebidas.html">Bebidas</a></li>
+        <li><a href="../index.html#Contacto">Contacto</a></li>
+    </ul>
+    </nav>
+    <section> 
+        <h3> La mejor calidad del mercado</h3>
+    </section>
+    <hr>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila" >
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../assets/img/productos/frutosSecos.JPG" alt="">
+                        <p class="descripcion">Frutos Secos</p>
+                        <span class="precio">$ 500</span>
+                        <button class="boton" > AGREGAR AL CARRITO</button>
+                    </div>
+
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../assets/img/productos/yuyos.JPG" alt="">
+                        <p class="descripcion">Yuyos</p>
+                        <span class="precio">$ 1000</span>
+                        <button class="boton" > AGREGAR AL CARRITO</button>
+                    </div>
+
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../assets/img/productos/Granolas.JPG" alt="">
+                        <p class="descripcion">Granolas</p>
+                        <span class="precio">$ 400</span>
+                        <button class="boton" > AGREGAR AL CARRITO</button>
+                    </div>
+
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../assets/img/productos/condimentos.JPG" alt="">
+                        <p class="descripcion">Condimentos</p>
+                        <span class="precio">$ 600</span>
+                        <button class="boton" > AGREGAR AL CARRITO</button>
+                    </div>
+
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../assets/img/productos/cereales.JPG" alt="">
+                        <p class="descripcion">Cereales</p>
+                        <span class="precio">$ 200</span>
+                        <button class="boton" > AGREGAR AL CARRITO</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../assets/img/productos/Pan.JPG" alt="">
+                        <p class="descripcion">Pan integral</p>
+                        <span class="precio">$ 300</span>
+                        <button class="boton" > AGREGAR AL CARRITO</button>
+                    </div>
+
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../assets/img/productos/aceite.JPG" alt="">
+                        <p class="descripcion">Aceite de oliva</p>
+                        <span class="precio">$ 1500</span>
+                        <button class="boton" > AGREGAR AL CARRITO</button>
+                    </div>
+
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../assets/img/productos/TE.JPG" alt="">
+                        <p class="descripcion"> Te </p>
+                        <span class="precio">$ 100</span>
+                        <button class="boton" > AGREGAR AL CARRITO</button>
+                    </div>
+
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../assets/img/productos/LEGUMBRES.JPG" alt="">
+                        <p class="descripcion">Legumbres</p>
+                        <span class="precio">$ 750</span>
+                        <button class="boton" > AGREGAR AL CARRITO</button>
+                    </div>
+
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../assets/img/productos/Lacteos.JPG" alt="">
+                        <p class="descripcion">Lacteos</p>
+                        <span class="precio">$ 800</span>
+                        <button class="boton" > AGREGAR AL CARRITO</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <!--CONTENEDOR DEL ITEM SELECCIONADO-->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="../assets/img/productos/aceite.JPG" alt="" id="img">
+                <h2 id="modelo">FRUTOS SECOS</h2>
+                <p id="descripcion">Descripcion del producto</p>
+
+                <span class="precio" id="precio">$ 500</span>
+
+                <div class="fila">
+
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <small>Copyright Iracy Almacen Natural ©2023. Todos los derechos reservados
+            creada y diseñada por Benjamin Paredes </small>
+    </footer>
+    <script src="../assets/javaScript/scrpt.js"></script>
+    
+</body>
+</html>

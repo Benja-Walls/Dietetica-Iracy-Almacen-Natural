@@ -1,0 +1,17 @@
+:root {
+    --primary: hsl(129, 29%, 35%);
+    --primary-dark:hsl(128, 37%, 19%);
+    --secondary: hsl(31, 74%, 77%);
+    --secondary-dark: hsl(32, 80%, 72%);
+    --secondary2: hsla(33, 57%, 27%, 0.925);
+    --secondary-dark2: hsla(31, 70%, 21%, 0.911); 
+    --white: #f5f9fa;
+    --white2: #ebf3f5;
+    --gray:#e1e4e5;
+    --gray2:#c0c6c9;
+    --gray3:#4b4c4d;
+    --black:#323333;
+    --black2:#2a2b2b;
+    --primary2: hsla(129, 22%, 42%, 0.89);
+    --primary-dark2:hsla(127, 32%, 34%, 0.808);
+}
